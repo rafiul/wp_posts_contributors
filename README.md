@@ -2,8 +2,8 @@
 A simple Posts contributor for WordPress Posts
 
 ## Plugin Documentation
-1. Upload the **rt-contributors** plugin directory to the /wp-content/plugins/ directory.
-2. Activate **rt-contributors** through the 'Plugins' menu in WordPress.
+1. Upload the **wp-posts-contributors** plugin directory to the /wp-content/plugins/ directory.
+2. Activate **wp-posts-contributors** through the 'Plugins' menu in WordPress.
 3. Add below code in your content template or inside of post loop.
 
 ```
