@@ -6,12 +6,13 @@ Description: A simple Posts Contrubutors plugin for rtCamp.
 Version: 1.0
 Author: B.M. Rafiul Alam
 Author URI: https://profiles.wordpress.org/rafiul17/#content-plugins
-Text Domain: rt-camp
+Text Domain: rrr-plug
 Domain Path: /languages
 */
 
 
 class PostsContrubutors{
+	
 
 	public function __construct() {
 		add_action('admin_init', array( $this,'rt_enqueue_style'));
@@ -75,12 +76,12 @@ class PostsContrubutors{
 	}
 
 	//======Plugin Frontend View =========
-	public function rt_contributors_view($post_id) {
+	public function wp_posts_contributors_view($post_id) {
 		$get_meta = get_post_meta($post_id, 'rt_post_author', true);
 		if (!empty($get_meta)) {
 	?>
 		<div class="contributors-wraper">
-			<h5><?php echo _e('Contributors:', 'rt-camp'); ?></h5>
+			<h5><?php echo _e('Contributors:', 'rrr-plug'); ?></h5>
 			<hr>
 			<ul class="contributors">
 				<?php
@@ -106,4 +107,4 @@ class PostsContrubutors{
 } //End Class
 
 // Call class
-$contriubutorData = new PostsContrubutors;
+ new PostsContrubutors();
