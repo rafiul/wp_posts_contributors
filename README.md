@@ -1,4 +1,4 @@
-# Wp_Posts_Contributors
+# Wp_Posts_Contributors Plugin
 A simple Posts contributor for WordPress Posts
 
 ## Plugin Documentation
