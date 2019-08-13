@@ -7,9 +7,10 @@ A simple Posts contributor for WordPress Posts
 3. Add below code in your content template or inside of post loop.
 
 ```
-<?php 
-	if(function_exists('rt_contributors')){
-		rt_contributors(get_the_ID());
+<?php
+if(class_exists('PostsContrubutors')){
+	$obj= new PostsContrubutors;
+	$obj->wp_posts_contributors_view(get_the_ID());
 	}
 ?>
  ```
