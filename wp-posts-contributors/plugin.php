@@ -2,7 +2,7 @@
 /*
 Plugin Name: WP Posts Contributors
 Plugin URI: https://profiles.wordpress.org/rafiul17/#content-plugins
-Description: A simple Posts Contrubutors plugin for rtCamp.
+Description: A simple Posts Contrubutors plugin.
 Version: 1.0
 Author: B.M. Rafiul Alam
 Author URI: https://profiles.wordpress.org/rafiul17/#content-plugins
